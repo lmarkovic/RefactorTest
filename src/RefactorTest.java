@@ -1,7 +1,8 @@
 public class RefactorTest {
 
 	//REFACTOR Long Parameter List
-    public static void main(String[] args) {
+    public static void main(ParameterObjectparameterObject
+       ) {
 		// TODO Auto-generated method stub
 	}
 	
@@ -10,7 +11,11 @@ public class RefactorTest {
 		try {
 			System.out.println("Testing");
 		} //REFACTOR Catch and rethrow
-    catch(Exception e) {
+    catch(Exception e) e
+              .printStackTrace
+               ()
+             ;
+       {
 			
 		}
 		
@@ -18,7 +23,9 @@ public class RefactorTest {
 			System.out.println("Testing2");
 		} //REFACTOR Catch and rethrow
     catch(Exception e) {
-			throw e;
+			
 		}
 	}
-}
+}private class ParameterObject {
+          String[] args;
+        }
